@@ -1,0 +1,18 @@
+def neg_nums(x):
+    new_list = []
+    for i in x:
+        if i < 0:
+            new_list.append(i)
+    print(new_list)
+    return(sum(new_list))
+    
+
+
+import random
+def main():
+    list= []
+    for i in range (50):
+        list.append(random.randint(-100,100))
+    print(neg_nums(list))
+    
+main()
