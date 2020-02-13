@@ -1,0 +1,9 @@
+    def print_volume(r):
+    pi = 3.1415926535897932
+    volume = (4/3) * pi * r**3
+    print(volume)
+
+
+print_volume(2)
+print_volume(3)
+print_volume(4)
